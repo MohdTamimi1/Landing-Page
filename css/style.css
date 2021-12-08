@@ -24,6 +24,7 @@ body {
     cursor: pointer;
 }
 
+
 .btn-light {
     padding: 10px 40px;
     background: #f9faf8;
@@ -66,11 +67,15 @@ nav {
     align-items: center;
 }
 
-.navbar li a{
+.navbar a{
     color: #f9faf8;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
+}
+
+.navbar a:hover {
+   border-bottom: 2px dotted #e63946;
 }
 
 .logo {
