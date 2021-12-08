@@ -15,7 +15,7 @@ body {
 
 .btn-dark {
     padding: 10px 40px;
-    background: #457b9d;
+    background: #e63946;
     color: #f1faee;
     border: none;
     border-radius: 8px;
@@ -25,7 +25,7 @@ body {
 }
 
 .btn-dark:hover {
-    background-color: #e63946;
+    background-color: #457b9d;
 }
 
 .btn-light {
@@ -111,6 +111,10 @@ nav {
 .left p {
     font-size: 15px;
     margin: 5px 0;
+}
+
+.left span {
+    color: #e63946;
 }
 
 .right {
