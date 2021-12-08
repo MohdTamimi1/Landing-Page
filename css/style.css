@@ -183,11 +183,12 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 
 .quote-container .first {
     text-align: justify;
-    font-size: 33px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .quote-container .second {
-    
+    margin-top: 10px;
     font-size: 25px;
     align-self: flex-end;
     font-weight: 700;
