@@ -158,8 +158,11 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
     border: 4px solid #457b9d;
     border-radius: 15px;
     height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
 
 .box-container h2 {
     margin-top: 10px;
@@ -176,7 +179,7 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 
 .box.two {
     background: #f1faee;
-    border: 2px dotted #457b9d;
+    border: 3px dashed #1f2937;
 
 }
 
@@ -187,6 +190,16 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 .box.four {
     background: #1f2937;
     border: #1f2937;
+}
+
+.box p {
+    color: #f1faee;
+    margin: 2px;
+    font-weight: 700;
+}
+
+.box.two p {
+    color: #1f2937;
 }
 
 /* Quote Section  */
