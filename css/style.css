@@ -99,3 +99,96 @@ nav {
     border-radius: 8px;
 background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 }
+
+/* information Section */
+
+.info {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    justify-content: space-around;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.box-container {
+    max-width: 140px;
+    margin: 0 20px;
+}
+
+.box {
+    background: #f9faf8;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    height: 140px;
+}
+
+
+.box-container h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.box.one {
+    background: #e63946;
+    border: #e63946;
+}
+
+.box.two {
+    background: #a8dadc;
+    border: #a8dadc;
+}
+
+.box.three {
+    background: #3882f6;
+}
+
+.box.four {
+    background: #1f2937;
+    border: #1f2937;
+}
+
+/* Quote Section  */
+
+.quote {
+    background: #e5e7eb;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 70%;
+    color: #1f2937;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-container .first {
+    text-align: justify;
+    font-size: 33px;
+}
+
+.quote-container .second {
+    
+    font-size: 25px;
+    align-self: flex-end;
+    font-weight: 700;
+}
