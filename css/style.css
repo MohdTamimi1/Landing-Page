@@ -39,6 +39,11 @@ body {
     cursor: pointer;
 }
 
+.btn-light:hover {
+    background: #1f2937;
+    color: #f1faee;
+}
+
 /* NAVBAR */
 
 header {
@@ -236,3 +241,28 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
     color: #1f2937;
 }
 
+/* Sig-up Section */
+
+.sign-up {
+    display: flex;
+    min-height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .sign-container {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    background: #e63946;
+    margin: 0 20px;
+    min-height: 100px;
+    justify-content: space-around;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.sign-up .sign-text {
+    color: #f1faee;
+    font-weight: 700;
+}
