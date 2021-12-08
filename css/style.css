@@ -24,6 +24,9 @@ body {
     cursor: pointer;
 }
 
+.btn-dark:hover {
+    background-color: #e63946;
+}
 
 .btn-light {
     padding: 10px 40px;
@@ -76,6 +79,7 @@ nav {
 
 .navbar a:hover {
    border-bottom: 2px dotted #e63946;
+   font-size: 0.95rem;
 }
 
 .logo {
@@ -184,7 +188,7 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 /* Quote Section  */
 
 .quote {
-    background: #e63946;
+    background: #457b9d;
     min-height: 50vh;
     display: flex;
     justify-content: center;
@@ -193,7 +197,7 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 
 .quote-container {
     max-width: 70%;
-    color: #1f2937;
+    color: #f1faee;
     min-height: 500px;
     display: flex;
     justify-content: center;
@@ -212,5 +216,5 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
     font-size: 25px;
     align-self: flex-end;
     font-weight: 700;
-    color: #f1faee;
+    color: #1f2937;
 }
