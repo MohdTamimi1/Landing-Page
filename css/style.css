@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
 
+/* Utilites */
+
 * {
     font-family: 'Inter', sans-serif;
     padding: 0;
@@ -10,6 +12,30 @@
 body {
     background: #f9faf8;
 }
+
+.btn-dark {
+    padding: 10px 40px;
+    background: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-light {
+    padding: 10px 40px;
+    background: #f9faf8;
+    color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* NAVBAR */
 
 header {
     background-color: #1f2937;
@@ -25,8 +51,6 @@ header {
     width: 1200px;
     margin: 25px 25px;
 }
-
-/* NAVBAR */
 
 nav {
     display: flex;
@@ -78,17 +102,6 @@ nav {
 .left p {
     font-size: 15px;
     margin: 5px 0;
-}
-
-.left button {
-    padding: 10px 40px;
-    background: #3882f6;
-    color: #f9faf8;
-    border: none;
-    border-radius: 8px;
-    margin-top: 15px;
-    font-weight: 700;
-    cursor: pointer;
 }
 
 .right {
