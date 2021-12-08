@@ -42,7 +42,7 @@ nav {
     align-items: center;
 }
 
-.navbar li {
+.navbar li a{
     color: #f9faf8;
     font-size: 15px;
     font-weight: 400;
