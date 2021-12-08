@@ -7,10 +7,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #f9faf8;
+}
+
 header {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
+    min-height: 50vh;
 }
 
 .container {
