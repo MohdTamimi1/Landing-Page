@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 25px 25px;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    margin-bottom: 30px;
+    color: #f9faf8;
+    height: 250px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 28px;
+}
+
+.left h2 {
+    margin-top: 5px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.left p {
+    font-size: 18px;
+}
+
+.left button {
+    padding: 10px 40px;
+    background: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #838892;
+    border-radius: 8px;
+}
+
+.right h2 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    color: #f9faf8;
+    padding: 30px;
+}
+
+
+
+
+
