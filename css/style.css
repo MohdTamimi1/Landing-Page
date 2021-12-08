@@ -10,13 +10,13 @@
 }
 
 body {
-    background: #f9faf8;
+    background: #f1faee;
 }
 
 .btn-dark {
     padding: 10px 40px;
     background: #3882f6;
-    color: #f9faf8;
+    color: #f1faee;
     border: none;
     border-radius: 8px;
     margin-top: 15px;
@@ -27,7 +27,7 @@ body {
 
 .btn-light {
     padding: 10px 40px;
-    background: #f9faf8;
+    background: #f1faee;
     color: #3882f6;
     border: none;
     border-radius: 8px;
@@ -68,7 +68,7 @@ nav {
 }
 
 .navbar a{
-    color: #f9faf8;
+    color: #f1faee;
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
@@ -80,7 +80,7 @@ nav {
 
 .logo {
     font-size: 18px;
-    color: #f9faf8;
+    color: #f1faee;
 }
 
 /* Hero */
@@ -88,7 +88,7 @@ nav {
 .hero {
     display: flex;
     margin-bottom: 30px;
-    color: #f9faf8;
+    color: #f1faee;
 }
 
 .left {
@@ -146,7 +146,7 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 }
 
 .box {
-    background: #f9faf8;
+    background: #f1faee;
     border: 4px solid #3882f6;
     border-radius: 15px;
     height: 140px;
@@ -167,8 +167,9 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 }
 
 .box.two {
-    background: #516D5B;
-    border: #516D5B;
+    background: #f1faee;
+    border: 2px dotted #3882f6;
+
 }
 
 .box.three {
@@ -183,7 +184,7 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 /* Quote Section  */
 
 .quote {
-    background: #e5e7eb;
+    background: #e63946;
     min-height: 50vh;
     display: flex;
     justify-content: center;
@@ -211,5 +212,5 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
     font-size: 25px;
     align-self: flex-end;
     font-weight: 700;
-    color: #e63946;
+    color: #f1faee;
 }
