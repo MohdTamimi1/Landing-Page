@@ -245,7 +245,7 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
 
 .sign-up {
     display: flex;
-    min-height: 25vh;
+    min-height: 40vh;
     justify-content: center;
     align-items: center;
 }
@@ -256,7 +256,7 @@ background: url(../img/design-gd8735cd90_640.png) no-repeat center center/cover;
     width: 1200px;
     background: #e63946;
     margin: 0 20px;
-    min-height: 100px;
+    min-height: 150px;
     justify-content: space-around;
     padding: 0 20px;
     border-radius: 10px;
